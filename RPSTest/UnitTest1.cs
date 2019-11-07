@@ -1,14 +1,14 @@
 ﻿using System;
-using ConsoleApp1;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using RPSApp;
 
-namespace UnitTestProject1
+namespace RPSUnitTestProject
 {
     [TestClass]
-    public class UnitTest1
+    public class ThrowUnitTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void AllThrows()
         {
             //paper
             Assert.AreEqual(RPS.Compare(RPS.ThrowEnum.Paper, RPS.ThrowEnum.Paper), 0);
